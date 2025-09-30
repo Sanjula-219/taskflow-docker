@@ -1,4 +1,10 @@
-# 🐳 TaskFlow - Dockerized Task Management API
+<div align="center">
+
+# 🐳 TaskFlow Docker
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Production-Ready+Containerization;Docker+%2B+Node.js+%2B+MongoDB;Learning+DevOps+Skills)](https://git.io/typing-svg)
+
+</div>
 
 > A production-ready containerized Node.js REST API demonstrating advanced Docker practices
 
