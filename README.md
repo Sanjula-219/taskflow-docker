@@ -164,7 +164,7 @@ taskflow-docker/
 
 ## 📝 Development Log
 
-### Day 1 (Date: DD/MM/YYYY)
+### Day 1 (Date: 30/09/2025)
 - ✅ Repository created
 - ✅ Project structure initialized
 - ✅ Planning completed
@@ -175,8 +175,8 @@ taskflow-docker/
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+- GitHub: (https://github.com/sanjula19)
+- LinkedIn: (https://linkedin.com/in/sanjula-madusanka)
 - Email: your.email@example.com
 
 ---
@@ -185,7 +185,7 @@ taskflow-docker/
 
 **Current Phase:** Planning & Setup  
 **Completion:** 5%  
-**Last Updated:** DD/MM/YYYY
+**Last Updated:** 30/09/2025
 
 ---
 
