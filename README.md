@@ -52,7 +52,7 @@ This project demonstrates:
 **Week 1: Development & Containerization**
 
 - [x] Day 1: Project setup & planning
-- [ ] Day 2: Basic application development
+- [x] Day 2: Basic application development
 - [ ] Day 3: Docker multi-stage builds
 - [ ] Day 4: Docker Compose setup
 - [ ] Day 5: Optimization & networking
@@ -197,7 +197,7 @@ taskflow-docker/
 
 ## 🔮 Upcoming Tasks
 
-- [ ] Set up basic Node.js Express application
+- [x] Set up basic Node.js Express application
 - [ ] Create initial API endpoints
 - [ ] Connect to MongoDB
 - [ ] Write basic Dockerfile

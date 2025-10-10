@@ -3,11 +3,25 @@ require("dotenv").config(); // Load environment variables FIRST!
 const express = require("express");
 const connectDB = require("./src/config/database.js");
 
+const projectRoutes = require("./src/routes/projectRoutes");
+const taskRoutes = require("./src/routes/taskRoutes");
+
 const app = express();
 
 // Middleware
 app.use(express.json()); // Parse JSON bodies
 app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies
+
+
+
+// CORS (if needed)
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, PATCH, DELETE");
+  res.header("Access-Control-Allow-Headers", "Content-Type");
+  next();
+});
+
 
 // Health check endpoint
 app.get("/health", (req, res) => {
@@ -37,6 +51,10 @@ app.get("/", (req, res) => {
 // Mount routes (uncomment when ready)
 // app.use("/api/projects", projectRoutes);
 // app.use("/api/tasks", taskRoutes);
+
+// Mount routes
+app.use("/api/projects", projectRoutes);
+app.use("/api/project/tasks", taskRoutes);
 
 // 404 handler
 app.use((req, res) => {

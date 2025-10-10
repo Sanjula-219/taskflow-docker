@@ -18,10 +18,10 @@ Master Docker containerization through hands-on implementation of a production-r
 
 ### Day 2: Application Development
 **Goals:**
-- Build basic Node.js REST API
-- Implement 8-10 endpoints
-- Set up MongoDB connection
-- Test locally (without Docker)
+- [x]Build basic Node.js REST API
+- [x]Implement 8-10 endpoints
+- [x]Set up MongoDB connection
+- [x]Test locally (without Docker)
 
 **Endpoints to Build:**
 1. GET /health - Health check
@@ -36,11 +36,11 @@ Master Docker containerization through hands-on implementation of a production-r
 10. DELETE /api/tasks/:id - Delete task
 
 **Success Criteria:**
-- [ ] Application runs locally on port 3000
-- [ ] All endpoints working
-- [ ] MongoDB connection successful
-- [ ] Basic error handling implemented
-- [ ] Ready to containerize
+- [x] Application runs locally on port 3000
+- [x] All endpoints working
+- [x] MongoDB connection successful
+- [x] Basic error handling implemented
+- [x] Ready to containerize
 
 ---
 
